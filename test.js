@@ -1,1 +1,2 @@
-<script>alert("DoctorYoyo")</script>
+alert("DoctorYoyo was here!")
+console.log("DoctorYoyo was here too!")
