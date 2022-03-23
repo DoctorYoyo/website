@@ -1,1 +1,1 @@
-<script>alert("DoctorYoyo was here.")</script>
+<script>alert("DoctorYoyo")<script>
