@@ -1,3 +1,11 @@
 body {
-    background-image:"/../assests/background.gif";
+    background-image: url('./../assets/background.gif');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: rgb(255, 235, 205, .5);
+    text-align: center;
 }
