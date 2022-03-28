@@ -6,6 +6,8 @@ body {
 }
 
 h1 {
+    font-family: 'Papyrus', 'Times New Roman', 'Serif';
+
     background-color: rgb(255, 235, 205, .5);
     text-align: center;
 }
