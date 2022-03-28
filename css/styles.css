@@ -5,6 +5,12 @@ body {
     background-attachment: fixed;
 }
 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
 /*********************************/
 /*This is the entire webpage grid*/
 /*********************************/
@@ -12,7 +18,9 @@ body {
 .container {
     display: grid;
     grid-template-columns: [start line1] 10% [line2] 15% [line3 header-start] auto [line4 header-end] 15% [line5] 10% [line6 end];
-    grid-template-rows: [line1 start] 25% [line2] 100px [line3] auto [line4 end];
+    grid-template-rows: [line1 start] 25% [line2] 100px [line3] auto [line4] 5% [line5 end];
+    width: 100vw;
+    height: 100vh;
 }
 
 /********************/
@@ -24,6 +32,12 @@ body {
 
     background-color: rgb(255, 235, 205, .6);
     text-align: center;
+    margin: 5%;
+    padding: 10px;
+
+    border-bottom-style: solid;
+    border-radius: 50%;
+    border-color: darkgoldenrod;
 }
 
 .header {
@@ -38,7 +52,26 @@ body {
     grid-column-start: start;
     grid-column-end: line3;
     grid-row-start: start;
-    grid-row-end: end;
+    grid-row-end: line4;
+}
+
+.blank {
+    height: 20%;
+}
+
+.ToC {
+    height: 80%;
+    border-style: double;
+    border-width: thick;
+    border-radius: 5%;
+    border-color: darkgoldenrod;
+    margin-left: 5%;
+
+    background-color: rgb(255, 235, 205, .6);
+}
+
+.offset {
+    margin-left: 5%;
 }
 
 /*****************************************/
@@ -48,5 +81,5 @@ body {
     grid-column-start: line4;
     grid-column-end: end;
     grid-row-start: start;
-    grid-row-end: end;
+    grid-row-end: line4;
 }
