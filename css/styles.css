@@ -32,7 +32,7 @@ body {
 
     background-color: rgb(255, 235, 205, .6);
     text-align: center;
-    margin: 5%;
+    margin: 2%;
     padding: 10px;
 
     border-bottom-style: solid;
@@ -66,12 +66,14 @@ body {
     border-radius: 5%;
     border-color: darkgoldenrod;
     margin-left: 5%;
+    margin-right: 25%;
 
     background-color: rgb(255, 235, 205, .6);
 }
 
 .offset {
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 /*****************************************/
