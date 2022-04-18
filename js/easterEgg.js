@@ -17,6 +17,6 @@ $(document).ready(function(){
 });
 function show_popup()
 {
-var p = window.open( 'egg.html','name', 'top= 150, left=150, height=350, width=550');
+var p = window.open( 'egg.html','name', 'top= 100, left=100, height=800, width=800');
 p.focus();
 }
