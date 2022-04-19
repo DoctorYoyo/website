@@ -33,7 +33,7 @@ body {
     margin: 2%;
     padding: 10px;
 
-    background-image: url("/assets/parchment.jpg");
+    background-image: url("./../assets/parchment.jpg");
     background-repeat: no-repeat;
     background-position: center;
     
