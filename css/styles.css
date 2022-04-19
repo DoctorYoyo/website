@@ -29,15 +29,14 @@ body {
 
 .welcome {
     font-family: 'Papyrus', 'Times New Roman', 'Serif';
-
-    background-color: rgb(255, 235, 205, .9);
     text-align: center;
     margin: 2%;
     padding: 10px;
 
-    border-bottom-style: solid;
-    border-radius: 50%;
-    border-color: darkgoldenrod;
+    background-image: url("/assets/parchment.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 .header {
