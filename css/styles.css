@@ -18,7 +18,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: [start line1] 10% [line2] 15% [line3 header-start] auto [line4 header-end] 15% [line5] 10% [line6 end];
-    grid-template-rows: [line1 start] 25% [line2] 100px [line3] auto [line4] 5% [line5 end];
+    grid-template-rows: [line1 start] 25% [line2] 100px [line3] auto [line4] 20% [line5] 5% [line6 end];
     width: 100vw;
     height: 100vh;
 }
@@ -51,7 +51,7 @@ body {
     grid-column-start: start;
     grid-column-end: line3;
     grid-row-start: start;
-    grid-row-end: line4;
+    grid-row-end: line5;
 }
 
 .blank {
@@ -59,15 +59,36 @@ body {
 }
 
 .ToC {
-    height: 80%;
+    height: 40%;
     border-style: double;
     border-width: thick;
     border-radius: 5%;
     border-color: darkgoldenrod;
     margin-left: 5%;
     margin-right: 25%;
+    
+    background-color: rgb(255, 235, 205, .9);
+}
+
+.AboutMe {
+    height: 30%;
+    border-style: double;
+    border-width: thick;
+    border-radius: 5%;
+    border-color: darkgoldenrod;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 25%;
 
     background-color: rgb(255, 235, 205, .9);
+}
+
+.AboutMeTitle {
+    text-align: center;
+}
+
+.AboutMePara {
+    margin: 5%;
 }
 
 .offset {
